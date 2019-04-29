@@ -4,7 +4,7 @@ import { Injectable } from '@angular/core';
 import { Subject } from 'rxjs';
 
 // Firebase
-import * as firebase from 'firebase';
+import * as firebase from 'firebase/app';
 
 // Models
 import { Book } from '../models/book.model';
